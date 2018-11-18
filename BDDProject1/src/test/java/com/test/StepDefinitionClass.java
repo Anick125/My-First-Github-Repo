@@ -66,6 +66,7 @@ public class StepDefinitionClass {
 	public void user_types_in_passwordBox(String arg1) throws Throwable {
 		dr.findElement(By.id("id")).sendKeys(arg1);
 		System.out.println("User is on profile page");
+		System.out.println("This is Ash branch");
 	}
 
 }
